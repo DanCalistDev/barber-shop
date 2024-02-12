@@ -10,6 +10,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
+    <header>
     <Card>
       <CardContent className="px-4 py-2 flex justify-between items-center flex-row">
        <Link href="/">
@@ -27,5 +28,6 @@ export default function Header() {
         </Sheet>
       </CardContent>
     </Card>
+    </header>
   );
 }
